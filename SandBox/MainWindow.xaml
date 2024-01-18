@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SandBox"
         d:DataContext="{d:DesignInstance {x:Type local:MainWindowVm}}"
-        xmlns:tsTimeline="clr-namespace:TsTimeline;assembly=TsTimeline"
+        xmlns:tsTimeline="clr-namespace:TsTimeline;assembly=Timeline"
         mc:Ignorable="d"
         Title="1000 tracks &amp; 3000 clips demo" Height="450" Width="800">
     <Window.Resources>

@@ -8,12 +8,15 @@ namespace SandBox
     public class TriggerClipVm : Notification, ITriggerClipDataContext
     {
         public double Value { get; set; }
+        public double Frame { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 
     public class HoldClipVm : Notification, IHoldClipDataContext
     {
         public double StartValue { get; set; }
         public double EndValue { get; set; }
+        public double StartFrame { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public double EndFrame { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 
     public class TrackVm : Notification
